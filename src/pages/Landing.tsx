@@ -13,7 +13,7 @@ const Landing: React.FC = () => (
     <div className="content-wrapper">
       <div>
       <img src={mapMarkerImg} alt="Happy" />
-    <h1>Cidade Verde</h1>
+    <h1>Cidade Limpa</h1>
       </div>
 
       <main>

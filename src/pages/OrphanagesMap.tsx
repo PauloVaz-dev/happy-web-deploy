@@ -33,7 +33,7 @@ const OrphanagesMap: React.FC = () => {
         <img src={mapMarkerImg} alt="Happy" />
 
         <h2>Localize um ecoponto no mapa</h2>
-        <p>A naturesa agradece :)</p>
+        <p>A natureza agradece :)</p>
       </header>
 
       <footer>
@@ -43,8 +43,8 @@ const OrphanagesMap: React.FC = () => {
     </aside>
 
     <Map
-      center={[-6.8001529, -42.2843776]}
-      zoom={15}
+      center={[-5.8250878664378964, -35.21860834426493]}
+      zoom={12}
       style={{ width: '100%', height: '100%' }}
     >
       {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}

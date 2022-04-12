@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 
-import logoImg from '../images/logo.svg';
+
+import mapMarkerImg from '../images/map-marker.svg';
 
 import '../styles/global.css';
 import '../styles/pages/landing.css';
@@ -10,12 +11,15 @@ import '../styles/pages/landing.css';
 const Landing: React.FC = () => (
   <div id="page-landing">
     <div className="content-wrapper">
+      <div>
+      <img src={mapMarkerImg} alt="Happy" />
     <h1>Cidade Verde</h1>
+      </div>
 
       <main>
         <h1>Leve felicidade para o mundo</h1>
         <p>
-          A naureza agradeçe.
+          A natureza agradece.
         </p>
       </main>
 

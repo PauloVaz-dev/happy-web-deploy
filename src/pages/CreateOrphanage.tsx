@@ -55,6 +55,7 @@ export default function CreateOrphanage() {
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
+
     const { latitude, longitude } = position;
 
     const data =  new FormData();
@@ -88,7 +89,7 @@ export default function CreateOrphanage() {
             <legend>Dados</legend>
 
             <Map
-              center={[-6.8001529, -42.2843776]}
+              center={[-5.8250878664378964, -35.21860834426493]}
               style={{ width: '100%', height: 280 }}
               zoom={15}
               onClick={handleMapClick}

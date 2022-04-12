@@ -10,18 +10,18 @@ import '../styles/pages/landing.css';
 const Landing: React.FC = () => (
   <div id="page-landing">
     <div className="content-wrapper">
-      <img src={logoImg} alt="Happy" />
+    <h1>Cidade Verde</h1>
 
       <main>
         <h1>Leve felicidade para o mundo</h1>
         <p>
-          Visite orfanatos e mude o dia de muitas crianças.
+          A naureza agradeçe.
         </p>
       </main>
 
       <div className="location">
-        <strong>Santa Rosa do Piauí</strong>
-        <span>Piauí</span>
+        <strong>Rio Grande do Norte</strong>
+        <span>Natal</span>
       </div>
 
       <Link to="app" className="enter-app">

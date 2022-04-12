@@ -32,13 +32,13 @@ const OrphanagesMap: React.FC = () => {
       <header>
         <img src={mapMarkerImg} alt="Happy" />
 
-        <h2>Escolha um orfanato no mapa</h2>
-        <p>Muitas crianças estão esperando a sua visita :)</p>
+        <h2>Localize um ecoponto no mapa</h2>
+        <p>A naturesa agradece :)</p>
       </header>
 
       <footer>
-        <strong>Santa Rosa do Piauí</strong>
-        <span>Piauí</span>
+        <strong>Natal</strong>
+        <span>Rio Grande do Norte</span>
       </footer>
     </aside>
 
